@@ -8,6 +8,6 @@ public class GIAIPTB1 {
 	 * Giải phương trình bậc 1: ax + b = 0 
 	 */
 	public double getKQ(double a, double b) {
-		return b / a;
+		return -b / a;
 	}
 }

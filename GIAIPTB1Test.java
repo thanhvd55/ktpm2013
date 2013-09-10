@@ -23,7 +23,7 @@ public class GIAIPTB1Test {
 	 */
 	@Test
 	public void Test1() {
-		assertEquals(1.0, giaiPTB1.getKQ(1, 1), 0f);
+		assertEquals(-1.0, giaiPTB1.getKQ(1, 1), 0f);
 	}
 
 	/*
@@ -35,7 +35,7 @@ public class GIAIPTB1Test {
 	
 	@Test
 	public void Test2() {
-		assertEquals(-9.0, giaiPTB1.getKQ(10, -90), 0f);
+		assertEquals(9.0, giaiPTB1.getKQ(10, -90), 0f);
 	}
 	
 	/*
